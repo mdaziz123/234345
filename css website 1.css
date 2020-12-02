@@ -1,0 +1,343 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.text-lift{
+  text-align: left;
+}
+.text-cantar{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.clear::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+img{
+  max-width: 100%;
+}
+.full{
+  max-width: 950px;
+  margin: auto;
+}
+
+.body,h1,h2,h3,h4,h5,h6,p,a,samp{
+  font-family: 'Work Sans', sans-serif;
+}
+.hader{
+   background-color:white;
+   border-bottom: 1px solid white;
+   display:;
+}
+.hadar-lift{
+  width: 40%;
+}
+.hadar-lift a img{
+   width: 50px;
+   height: auto;
+   float: left;
+   margin-top: 5px;
+   text-align: left;
+}
+.hadar-lift a .samp{
+  color: black;
+  display:inline-block;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 1.6rem; 
+}
+.hadar-cantar{
+  width: 40%;
+}
+.hadar-cantar ul{
+  text-align: left;
+}
+.hadar-cantar ul li{
+  display: inline-block;
+  position: relative;
+
+}
+.hadar-cantar ul li a{
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 20px 10px;
+}
+.hadar-cantar ul li a:hover{
+
+}
+.hadar-cantar ul li a i{
+ 
+}
+.hadar-cantar ul li{
+    position: relative;
+}
+.hadar-cantar ul li ul{
+    position: absolute;
+    top: 100%;
+    left:-30px;
+    background-color:white;
+    width: 280px;
+    height: auto;
+    line-height: 3px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    text-align:left;
+   transform-origin:top center;
+   z-index: 1;
+}
+.hadar-cantar ul li:hover ul{
+  opacity: 1;
+  visibility: visible;
+  transform-origin: top center;
+}
+.hadar-right{
+  width: 20%;
+  text-align:right;
+}
+.hadar-right .bay-now{
+    text-decoration: none;
+    color:blue;
+    display: block;
+    margin-top: 10px;
+    border: 2px solid blue;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius:5px;
+    transition: .5s;
+    z-index:1;
+}
+.hadar-right .bay-now:hover{
+   background-color: #6278df;
+   color: white;
+   z-index:-1;
+}
+.banar{
+  background-image: url(./img/mbr-4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding:130px 0px;
+  position: relative;
+  z-index: 9;
+  z-index: -1;
+}
+.banar-item{
+  text-align: center;
+  padding-top:40px ;
+  color:white;
+}
+.banar-item h3{
+  padding-bottom: 30px;
+  font-size: 25px;
+
+
+}
+.banar-item h1{
+  font-size: 53px;
+}
+.all-bgmane{
+  padding-top: 60px;
+}
+.all-bg{
+   background: white;
+   font-size: 20px;
+   display:inline-block;
+   padding:20px 35px;
+   border-radius: 8px;
+   text-decoration: none;
+   margin-right: 10px;
+   color:	rgb(105,105,105) ;
+}
+.all-bg1{
+  background: white;
+  font-size: 20px;
+  display: inline-block;
+  padding: 20px 35px;
+  border-radius: 8px;
+  color:	rgb(105,105,105);
+  text-decoration: none;
+  margin-left: 10px;
+}
+.all-bg1:hover{
+  background-color:  #6278df;
+}
+.banar::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0,0,.4);
+  z-index: -1;
+}
+.banar-1{
+  background: white;
+  padding: 60px 0;
+}
+.video-lift{
+  width: 47%;
+  padding-top: 135px;
+}
+.video-conten-right{
+  width:47%;
+}
+
+.video-conten-right h3{
+  font-size: 50px;
+  font-weight: 300;
+}
+.video-conten-right p{
+ padding-top: 20px;
+ font-size: 25px;
+ color: rgba(0, 0,0,.4);
+}
+.sirvic-saktion{
+  padding-top:50px ;
+}
+.sirvic-manu{
+
+}
+.sirvic-manu h1{
+  font-size: 60px;
+
+}
+.sirvic-manu h3{
+  padding-top: 20px;
+  font-size: 25px;
+  color: rgba(0, 0,0,.4);
+}
+.sirvic-item{
+  padding-top: 70px;
+
+}
+.sirvic-box{
+  background-color:white;
+  width: 30%;
+  padding: 80px 0px;
+  text-align:;
+  box-shadow: -29px 25px 18px 0 rgba(0,0,0,0.1);
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+.sirvic-icon{
+  color: #6278df ;
+  font-size: 40px;
+  min-height: 250px;
+ margin-left: 50px;
+ margin-right: 20px;
+}
+.sirvic-contan{
+    
+}
+.sirvic-contan h1{
+  font-weight: 600;
+  font-size: 25px;
+  
+}
+.sirvic-contan p{
+  padding-top: 10px;
+  font-size: 25px;
+  color: rgba(0, 0,0,.4);
+}
+.taka{
+  padding-top: 100px;
+}
+.taka-manu{
+  
+}
+.taka-manu h1{
+  font-size: 60px;
+  font-weight: 400;
+}
+.taka-manu h3{
+  font-size: 25px;
+  color: rgba(0, 0,0,.4);
+  padding-top: 15px;
+  font-weight: 300;
+}
+.taka-item{
+   padding-top: 60px;
+  
+}
+.taka-box{
+   width: 30%;
+   background-color:white;
+   box-shadow: 3px 3px 7px 0 rgb(0 0 0);
+   margin-left: 2%;
+}
+.taka-box h3{
+  font-size: 25px;
+  font-weight: 400;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.taka-box h1{
+  font-size: 60px;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.taka-box h1 samp{
+  font-size: 25px;
+}
+.taka-box h2{
+  padding-top: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 40px;
+}
+.taka-box p{
+  padding-top: 25px;
+  font-size: 25px;
+  font-weight: 400;
+  padding-left: 40px;
+}
+.taka-box ul{
+  margin-left: 20px;
+  font-size: 20px;
+}
+.taka-box ul li{
+  list-style: none;
+  padding: 25px;
+  font-size: 25px;
+  color: rgba(0, 0,0,.4);
+}
+.taka-box ul li i{
+  padding-right: 10px;
+  height:;
+  float: left;
+  height: 45px;
+  color: #6278df;
+
+}
+.taka-box h4{
+  color: #6278df;
+   text-align: center;
+   padding: 20px;
+   font-size: 25px;
+   background-color: white;
+   display:inline-block;
+   margin-left: 45px;
+   
+   border-radius: 10px;
+}
+.taka-box h4:hover{
+  background-color: #6278df;
+  color: white;
+}
+.taka-item:hover .taka-box{
+ 
+}

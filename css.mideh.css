@@ -1,0 +1,41 @@
+@media (max-width:960px) {
+  .full{
+    padding-right: 20PX;
+    padding-left: 20PX;
+    margin: autoA;
+    box-sizing: border-box;
+  }
+}
+@media (max-width:720PX) {
+  .hadar-cantar ul li a {
+    padding: 20px 4px;
+  }
+  .hadar-lift a .samp {
+    font-size: 20PX;
+  }
+  .hadar-lift a img {
+    width: 46px;
+  }
+  .hadar-right {
+    text-align:center;
+  }
+  .hadar-right .bay-now {
+    padding: 9px 16px;
+  }
+  .sirvic-icon {
+    font-size: 30px;
+  }
+  .sirvic-box {
+    margin-left: 2%;
+    margin-bottom: 2%;
+  }
+}
+@media (max-width:620PX) {
+  .hadar-lift a img {
+    width: 43px;
+    margin-top: 9PX;
+  }
+  .hadar-lift a .samp {
+    font-size: 17PX;
+  }
+}
